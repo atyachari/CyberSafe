@@ -21,4 +21,8 @@ This can be used as a tool of parental monitoring with parents getting notificat
 - PHP
 - MySQL
 - Flask
-
+## Contributors
+* <a href="https://github.com/atyachari">Vipul Lohani</a>
+* <a href="https://github.com/dbads">Sidhant Kohli</a>
+* <a href="https://github.com/cms118">Shivam Kumar</a>
+* <a href="https://github.com/surajmall">Suraj Kumar Mall</a>
