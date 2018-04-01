@@ -13,7 +13,7 @@ import email
 
 
 EMAIL_ACCOUNT = "cmshivam01998@gmail.com"
-PASSWORD = "accountFORpython"
+PASSWORD = "password_nhi_btayenge:p"
 
 
 def mail(str):
@@ -42,7 +42,7 @@ def mail(str):
      
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login(fromaddr, "accountFORpython")
+    server.login(fromaddr, PASSWORD)
     text = msg.as_string()
     server.sendmail(fromaddr, toaddr, text)
     print ("mail sent")
@@ -50,7 +50,7 @@ def mail(str):
 
 
 def mail1():
-    
+    accountFORpython
     time.sleep(1)
     global count
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
